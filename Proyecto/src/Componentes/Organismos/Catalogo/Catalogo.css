@@ -1,9 +1,23 @@
-.contenedorFlex {
-    width: 90%;
-    position: relative;
-    left: 3%;
+.containerFlex {
+    background-color: darkblue;
+    width: 1300px;
     margin-top: 30px;
+    margin-left: 110px;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
+    flex-direction: column;
+}
+
+.container-son1{
+  background-color: red;
+  display: flex;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.container-son2{
+  background-color: green;
+  display: flex;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+}

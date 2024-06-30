@@ -6,7 +6,7 @@ import './HomePage.css';
 export default function HomePage (){
     return(
         <div className="homePage">
-            <div>
+            <div className="apartadoTitle">
                 <TituloPagina></TituloPagina>
             </div>
             <Catalogo></Catalogo>
