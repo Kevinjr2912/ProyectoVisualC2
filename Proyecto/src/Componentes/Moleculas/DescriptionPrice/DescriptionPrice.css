@@ -2,17 +2,3 @@
     display: flex;
     gap: 40px;
 }
-.content_tittle Titulo {
-    font-size: large;
-    font-weight: 700;
-}
-.content_main {
-
-}
-
-#line {
-    border: 0.5px solid #777676;
-    width: 39px;
-    position: relative;
-    top: -30px;
-  }  

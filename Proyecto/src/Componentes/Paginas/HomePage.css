@@ -1,9 +1,13 @@
 .homePage{
     min-height: 100vh;
     min-width: 100vw;
-    background-color: blueviolet;
+    margin-top: -10px;
 }
 
 .apartadoTitle{
-    background-color: cornflowerblue;
+    height: 90px;
+    background: linear-gradient(to bottom, #151419, #0d144e);
+    display: flex;
+    align-items: center;
+    margin: 0;
 }
