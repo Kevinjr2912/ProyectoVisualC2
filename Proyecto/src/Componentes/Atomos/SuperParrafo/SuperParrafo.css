@@ -1,4 +1,21 @@
-.parraph{
-    font-size: 16px;
+p{
+    font-size: 15px;
     font-family: sans-serif;
+}
+
+.precioOriginal{
+    color: #777676;
+    font-size: medium;
+    display: block;
+    position: relative;
+    top: -5px;
+}
+
+.precioDescuento {
+    font-size: 30px;
+}
+
+.sinopsis_p {
+    text-align: justify;
+    font-size: 15px;
 }

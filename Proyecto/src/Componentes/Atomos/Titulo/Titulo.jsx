@@ -1,7 +1,7 @@
 import React from "react";
 
-export default function Titulo ({ titulo }){
+export default function Titulo ({ titulo, className }){
     return(
-        <h2>{titulo}</h2>
+        <h2 className={className}>{titulo}</h2>
     );
 }

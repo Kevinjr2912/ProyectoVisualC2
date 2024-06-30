@@ -15,14 +15,14 @@ export default function DescriptionPrice({
   return (
     <div className="buyBook">
       <div className="content_tittle">
-        <Titulo titulo={tittle} />
+        <Titulo titulo={tittle} className = "title"/>
       </div>
       <div class="main">
-        <SuperParrafo texto={precioOriginal} />
+        <SuperParrafo className="precioOriginal" texto={precioOriginal} />
         <div id="line"></div>
         <div class="precioGeneral">
-          <div class="precioDescuento">
-            <SuperParrafo texto={precioConDescuento} />
+          <div>
+            <SuperParrafo className = "precioDescuento" texto={precioConDescuento} />
           </div>
           <div class="porcentajeDescuento">
           <span>

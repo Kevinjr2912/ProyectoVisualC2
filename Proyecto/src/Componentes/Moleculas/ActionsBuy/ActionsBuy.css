@@ -10,13 +10,9 @@
   }
   
   .sinopsis {
-    width: 380px;
+    word-wrap:  break-word;
+    max-width: 380px;
     margin-top: 30px;
-    text-align: justify;
-  }
-  
-  .sinopsis p {
-    font-size: 13px;
   }
   
   .action-buy {

@@ -3,3 +3,8 @@ img{
     height: 220px;
     object-fit: cover;
 }
+
+.containerImg{
+    width: 300px;
+    height: 370px;
+}

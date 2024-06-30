@@ -12,6 +12,7 @@ export default function Description ({titulo, priceOriginal, priceDescount, desc
                 <Imagen
                     imagen = {ImagenPrueba}
                     textoAlternativo = {"textoX"}
+                    className = "containerImg"
                 />
             </div>
             <div className="content_descriptionPrice">
@@ -25,12 +26,10 @@ export default function Description ({titulo, priceOriginal, priceDescount, desc
                     isbn = {isnbBook}
                 />
             </div>
-            <div className="content_actionsBuy">
-                <ActionsBuy
+            <ActionsBuy
                     sipnosis={sipnosisBook}
                 />
-            </div>    
-            
+    
         </div>
     );
 }
