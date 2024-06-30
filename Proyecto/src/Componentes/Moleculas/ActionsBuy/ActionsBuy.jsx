@@ -1,7 +1,8 @@
 import React from "react";
 import SuperParrafo from "../../Atomos/SuperParrafo/SuperParrafo";
+import Button from "../../Atomos/Button/Button";
 
-export default function ActionsBuy (){
+export default function ActionsBuy ({sipnosis}){
     return (
         <div>
             <div>
@@ -14,7 +15,7 @@ export default function ActionsBuy (){
                 <label for="cantidad">Cantidad:</label>
                 <input type="number" id="cantidad"/>
             </div>
-            
+            <Button nombreAccion={"Comprar"}/>
         </div>
     );
 }

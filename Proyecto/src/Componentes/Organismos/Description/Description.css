@@ -1,0 +1,29 @@
+.content {
+    display: flex;
+    gap: 100px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+.content_img{
+    margin-top: 50px;
+    position: relative;
+    left: 70px;
+    width: 300px;
+    height: 370px;
+}
+.content_descriptionPrice{
+    margin-top: 45px;
+    border-radius: 15px;
+    padding-left: 10px;
+}
+.content_actionsBuy{
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+}

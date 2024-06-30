@@ -1,13 +1,17 @@
 import React from "react";
 import Titulo from "../../Atomos/Titulo/Titulo";
-import SuperParrafo from "../../Atomos/SuperParrafo"
+import SuperParrafo from "../../Atomos/SuperParrafo/SuperParrafo";
+import "./DescriptionPrice.css"
 
 export default function DescriptionPrice ({tittle, precioOriginal, precioConDescuento, descuento, anoPublicacion, numPaginas, isbn}) {
     return (
         <div>
-            <Titulo
-                titulo={tittle}
-            />
+            <div className="content_tittle">
+                <Titulo
+                    titulo={tittle}
+                />
+            </div>
+            
             <SuperParrafo
                 texto={precioOriginal}
             />
@@ -19,9 +23,9 @@ export default function DescriptionPrice ({tittle, precioOriginal, precioConDesc
                 texto={descuento}
             /></span>
             <p>Lo que tienes que saber de este producto: </p>
-            <p>Año de publicación: </p><span><SuperParrafo texto={anoPublicacion}/></span>
-            <p>Núnmero de páginas: </p><span><SuperParrafo texto={numPaginas}/></span>
-            <p>ISBN: </p><span><SuperParrafo texto={isbn}/></span>
+            <p>Año de publicación: {anoPublicacion}</p>
+            <p>Núnmero de páginas: {numPaginas}</p>
+            <p>ISBN: {isbn}</p>
         </div>
     );
 }
