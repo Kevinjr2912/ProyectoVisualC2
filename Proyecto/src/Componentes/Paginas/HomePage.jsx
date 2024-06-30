@@ -2,6 +2,7 @@ import React from "react";
 import Catalogo from "../Organismos/Catalogo/Catalogo";
 import TituloPagina from "../Moleculas/TituloPagina/TituloPagina";
 import './HomePage.css';
+import Footer from "../Moleculas/Footer/Footer";
 
 export default function HomePage (){
     return(
@@ -10,6 +11,7 @@ export default function HomePage (){
                 <TituloPagina></TituloPagina>
             </div>
             <Catalogo></Catalogo>
+            <Footer></Footer>
         </div>
     );
 }

@@ -1,5 +1,4 @@
 .containerFlex {
-    background-color: darkblue;
     width: 1300px;
     margin-top: 30px;
     margin-left: 110px;
@@ -8,14 +7,12 @@
 }
 
 .container-son1{
-  background-color: red;
   display: flex;
   margin-left: 50px;
   margin-right: 50px;
 }
 
 .container-son2{
-  background-color: green;
   display: flex;
   margin-left: 50px;
   margin-right: 50px;
