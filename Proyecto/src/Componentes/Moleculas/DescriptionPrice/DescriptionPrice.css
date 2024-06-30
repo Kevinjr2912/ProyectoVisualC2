@@ -1,4 +1,64 @@
-.content_tittle{
+.buybook {
+    margin-top: 45px;
+    border-radius: 15px;
+    padding-left: 10px;
+  }
+  
+  .qualification {
     display: flex;
     gap: 40px;
-}
+  }
+  
+  .qualification p {
+    font-size: large;
+    font-weight: 700;
+  }
+  
+  #precio-desc {
+    color: #777676;
+    font-size: medium;
+    display: block;
+    position: relative;
+    top: -5px;
+  }
+  
+  #line {
+    border: 0.5px solid #777676;
+    width: 39px;
+    position: relative;
+    top: -30px;
+  }
+  
+  .precioGeneral {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: -30px;
+  }
+  
+  .precioDescuento {
+    font-size: 30px;
+  }
+  
+  .porcentajeDescuento {
+    color: green;
+    font-size: 15px;
+  }
+  
+  .box-caracteristicas {
+    font-size: 13px;
+    margin-top: -15px;
+  }
+  
+  .box-caracteristicas p {
+    font-weight: 600;
+    font-size: 11px;
+  }
+  
+  .box-caracteristicas ul {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 12px;
+  }
+  
