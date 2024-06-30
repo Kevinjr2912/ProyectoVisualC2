@@ -1,5 +1,9 @@
 .homePage{
     min-height: 100vh;
-    max-width: 100vw;
+    min-width: 100vw;
     background-color: blueviolet;
+}
+
+.apartadoTitle{
+    background-color: cornflowerblue;
 }
