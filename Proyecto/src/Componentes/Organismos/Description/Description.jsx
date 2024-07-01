@@ -27,9 +27,8 @@ export default function Description ({titulo, priceOriginal, priceDescount, desc
                 />
             </div>
             <ActionsBuy
-                    sipnosis={sipnosisBook}
-                />
-    
+                sipnosis={sipnosisBook}
+            />
         </div>
     );
 }

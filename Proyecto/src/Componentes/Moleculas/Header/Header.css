@@ -1,0 +1,19 @@
+.header{
+    height: 90px;
+    background: linear-gradient(to bottom, #151419, #0d144e);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-bookDescription{
+    margin-left: -10px;
+    margin-top: -10px;
+    margin-right: -10px;
+}
+
+.actionsUser{
+    width: 500px;
+    display: flex;
+    gap:30px;
+}

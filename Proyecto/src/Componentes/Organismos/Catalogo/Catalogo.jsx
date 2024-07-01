@@ -7,10 +7,8 @@ import codigo_limpio from '../../../Imagenes/codigo_limpio.jpeg';
 import fb_programacion from '../../../Imagenes/fb_programacion.jpeg';
 import java from '../../../Imagenes/java.jpeg';
 import patterns_design from '../../../Imagenes/patterns_design.jpeg';
-import { useState } from 'react';
 
 export default function Catalogo (){
-    const [count, setCount] = useState(0);
     return(
         <div className="containerFlex">
             <div className="container-son1">

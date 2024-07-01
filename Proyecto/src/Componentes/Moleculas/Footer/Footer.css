@@ -5,3 +5,9 @@
     background: linear-gradient(to bottom, #151419, #0d144e);
     color: white;
   }  
+
+.footer-bookDescription{
+  margin-left: -10px;
+  margin-bottom: -10px;
+  margin-right: -10px;
+}
